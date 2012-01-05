@@ -84,6 +84,17 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>karaf</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>jbehave-osgi-services</module>
+				<module>jbehave-osgi-karaf</module>
+			</modules>
+		</profile>
+
+		<profile>
 			<id>example-trader</id>
 			<activation>
 				<activeByDefault>false</activeByDefault>

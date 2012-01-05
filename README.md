@@ -15,7 +15,7 @@ The Karaf module is built using 'one step' maven profile run:
 That will install on your local maven repo the Core and Dependencies features needed for JBehave-OSGi to be executed on Karaf. 
 
 ### Installation
-This procedure was tested in Karaf 2.2.1.
+This procedure was tested in Karaf 3.0.0-SNAPSHOT that has support to OSGi 4.3.
 
 1) Start Karaf shell (in clean mode):
     
